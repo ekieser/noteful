@@ -1,0 +1,30 @@
+h2 {
+	text-align: center;
+}
+
+.NoteForm {
+	margin: 0 auto;
+}
+
+.NoteForm__content {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.NoteForm__content textarea {
+	height: 300px;
+	width: 500px;
+}
+
+.NoteForm__textarea {
+	display: flex;
+	flex-direction: column;
+}
+
+.NoteForm__details, .NoteForm__buttons {
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+.Main {
+	flex-basis: 70%;
+	width: 100%;
+}
+
+.Main__note-item {
+    display: flex;
+    border: 1px solid black;
+	padding: 0px 20px 20px 20px;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.Main__note-list {
+	list-style: none;
+}
+
+.Main__delete-note {
+    margin-bottom: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+	height: 30px;
+	align-self: flex-end;
+}
+
+.Main__note-content {
+	padding-left: 40px;
+}
