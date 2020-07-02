@@ -19,7 +19,7 @@ export default class FolderForm extends React.Component {
 		event.preventDefault();
 		const name = this.state.name.value;
 		const folder = { name }
-		fetch(`http://localhost:9090/folders/<note-id>`, {method: 'POST', body: JSON.stringify(folder), headers: {'Content-Type': 'application/json'}})
+		fetch(`http://localhost:9090/folders/<folder-id>`, {method: 'POST', body: JSON.stringify(folder), headers: {'Content-Type': 'application/json'}})
 	      .then(res => {
 	        if (!res.ok) {
 	          return res.json().then(error => {
