@@ -26,7 +26,7 @@ export default class MainPage extends React.Component {
 						return( 							
 							<li className='Main__note-item' key={note.id}>
 								<ErrorBoundary>
-									<MainNote id={note.id} name={note.name} modified={`Date modified on ${DateTimeFormat(note.modified)}`} />
+									<MainNote id={note.id} name={note.name} modified={`Last Modified ${DateTimeFormat(note.modified)}`} />
 								</ErrorBoundary>
 							</li>							
 						)
